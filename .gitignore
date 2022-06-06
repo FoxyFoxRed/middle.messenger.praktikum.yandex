@@ -6,7 +6,6 @@ node_modules/
 stats.json
 .vscode/
 .parcel-cache
-dist/
 /swagger.json
 /imposter/swagger.json
 trash/
