@@ -1,0 +1,14 @@
+{{#> popup/popup popupClasses=(append "card " cardsClasses)}}
+{{#if @partial-block}}
+{{> @partial-block }}
+{{/if}}
+{{/popup/popup }}
+
+{{#> popup/popup hrefLink=cardLink popupClasses=(append (append cardsClasses " card second-card ")
+secondCardClasses)}}
+<div>
+  {{#if srcIconCard}}
+  <img src={{srcIconCard}} class="second-card__icon" width="24" height="24" alt="icon">
+  {{/if}}
+</div>
+{{/popup/popup}}
